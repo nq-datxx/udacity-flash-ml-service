@@ -25,4 +25,4 @@ echo "Verify app service"
 az webapp show --name $appservice --resource-group $resourceGroup
 
 echo "Upload source to $appservice"
-az webapp up -n $appservice
+az webapp up -n $appservice -g $resourceGroup
