@@ -9,7 +9,7 @@ echo "Creating resource group..."
 az group create -n $resourceGroup -l $location
 
 echo "Upload source to $appservice"
-# echo "az webapp up -n $appservice -g $resourceGroup --runtime "PYTHON:$pythonVersion" --sku F1 -l $location"
+
 az webapp up -n $appservice -g $resourceGroup --runtime "PYTHON:$pythonVersion" --sku F1 -l $location
 
 echo "Verify app service"
