@@ -125,5 +125,4 @@ In this project, we will build a Flask machine learning application that predict
 - Should Add Azure app insight for alerts and performance monitor
 
 ## Demo 
-
-()[]
+Link to Demo video: [Youtube](https://youtu.be/DpdJV3nRFjs)
